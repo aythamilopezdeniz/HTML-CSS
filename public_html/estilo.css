@@ -1,0 +1,311 @@
+body{
+    font-size:0.8em;
+    margin-left:10%;
+    margin-right:10%;
+    font-family:Arial;
+    text-align:justify;
+    margin-bottom:10%;
+}
+
+a{
+    text-decoration:none;
+}
+
+a:link{
+    color:blue;
+}
+
+a:visited{
+    color:#FF0000;
+}
+
+a:hover{
+    color:#6A0888;
+    border-radius:2ex;
+    background-color:white;
+}
+
+.style{
+    clear:both;
+}
+
+h2{
+    font-size:0.9em;
+    font-family:Verdana;
+    border-bottom:0.3em solid #D8D8D8;
+}
+
+h3{
+    color:#BDBDBD;
+    font-size:0.9em;
+}
+
+.descripcionRuta{
+    padding-left:1ex;
+    padding-right:1ex;
+    background-color:#D8D8D8;
+    border:2px solid #848484;
+}
+
+.informacionRuta{
+    margin-bottom:0.5em;
+    border:0.2em dashed #BDBDBD;
+}
+
+.fotoRuta{
+    padding-top:0.9ex;
+    padding-left:1ex;
+    float:right;
+}
+
+/*Estilo index.html*/
+#colorContenidoIndex{
+    background-color:#F5ECCE;
+}
+
+.cabeceraIndex{
+    color:#F4FA58;
+    font-size:18px;
+    text-align:center;
+    font-family:Cursive;
+}
+
+#header{
+    margin-top:-1ex;
+    margin-bottom:1ex;
+    border-radius:1em;
+    background-color:#3B240B;
+}
+
+.imageIndex{
+    margin-top:-20px;
+}
+
+.enlace{
+    float:left;
+    font-size:12px;
+    font-family:Arial;
+    margin-top:10px;
+    margin-right:10px;
+    border-radius: 5px;
+    background-color:#A9BCF5;
+    border: 2px solid #0000FF;
+}
+
+.enlace ul{
+    margin:auto;
+    margin-left:-2em;
+    margin-right:5px;
+    list-style:none;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.enlace li {
+    margin-top:0.3em;
+}
+
+.tituloEncabezamiento{
+    color:#6E6E6E;
+    font-size:15px;
+    text-align:center;
+}
+
+.informacionIndex{
+    font-size:15px;
+    margin-top:-10px;
+    text-align:center;
+    border-radius:10px;
+    font-family:Cursive;
+    background-color:#B45F04;
+}
+
+.informacionIndex a:link{
+    color:#2A120A;
+}
+
+.informacionIndex a:hover{
+    color:#DF0101;
+    border-radius:2em;
+    background-color:white;
+}
+
+.informacionIndex a:visited{
+    color:#2EFE2E;
+}
+
+/*Estilo tabla.html*/
+table, th, td{
+    padding:5px;
+    font-size:1em;
+    margin-bottom:20px;
+    font-family:Garamond;
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+
+.tabla{
+    text-align:center;
+}
+
+.tituloTabla{
+    color:#FF0040;
+    font-size:18px;
+    border-radius:10px;
+    text-align:center;
+    background-color:#3ADF00;
+}
+
+.tabla tr th{
+    color:#EF810C;
+    background-color:#61380B;
+}
+
+.datosTabla{
+    background-color:#61380B;
+}
+
+.datosTabla a{
+    color:#EF810C;
+}
+
+.resultado{
+    color:black;
+    background-color:#BDBDBD;
+}
+
+/*Boton retorno*/
+.salida a:visited{
+    color:blue;
+}
+
+.salida a:hover{
+    color:red;
+    background-color:#54BC59;
+}
+
+/*Estilo Ruta 1*/
+#tituloRuta1{
+    color:#073771;
+    font-size:1.5em;
+    text-align:center;
+    font-family:Verdana;
+}
+
+#encabezadoRuta1{
+    color:white;
+    font-size:0.9em;
+    background-color:#073771;
+}
+
+.subtituloRuta1{
+    color:#073771;
+}
+
+/*Estilo Ruta 2*/
+#tituloRuta2{
+    color:#560C6C;
+    font-size:1.5em;
+    text-align:center;
+    font-family:Verdana;
+}
+
+#encabezadoRuta2{
+    color:white;
+    font-size:0.9em;
+    background-color:#560C6C;
+}
+
+.subtituloRuta2{
+    color:#560C6C;
+}
+
+/*Estilo Ruta 3*/
+#tituloRuta3{
+    color:#004B2A;
+    font-size:1.5em;
+    text-align:center;
+    font-family:Verdana;
+}
+
+#encabezadoRuta3{
+    color:white;
+    font-size:0.9em;
+    background-color:#004B2A;
+}
+
+.subtituloRuta3{
+    color:#004B2A;
+}
+
+/*Estilo Ruta 4*/
+#tituloRuta4{
+    color:#F0AF00;
+    font-size:1.5em;
+    text-align:center;
+    font-family:Verdana;
+}
+
+#encabezadoRuta4{
+    color:white;
+    font-size:0.9em;
+    background-color:#F0AF00;
+}
+
+.subtituloRuta4{
+    color:#F0AF00;
+}
+
+#tituloRuta5{
+    color:#FF00BF;
+    font-size:1.5em;
+    text-align:center;
+    font-family:Verdana;
+}
+
+#encabezadoRuta5{
+    color:white;
+    font-size:0.9em;
+    background-color:#FF00BF;
+}
+
+.subtituloRuta5{
+    color:#FF00BF;
+}
+
+@media print{
+    #colorContenidoIndex{
+        color:black;
+        background-color:white;
+    }
+    
+    img, .salida, .enlace {display:none}
+    
+    .cabeceraIndex{
+        color:black;
+        font-size:2em;
+    }
+    
+    body{
+        margin-right:15%;
+    }
+    
+    #tituloRuta1, #tituloRuta2, #tituloRuta3, #tituloRuta4, #tituloRuta5{
+        color:black;
+        font-size:1.2em;
+        text-align:center;
+    }
+    
+    .subtituloRuta1, .subtituloRuta2, .subtituloRuta3, .subtituloRuta4, .subtituloRuta5{
+        color:black;
+    }
+
+    .tituloTabla{
+        color:black;
+        font-size:1.2em;
+        text-align:center;
+    }
+    
+    .tabla tr th, .datosTabla a, .tabla{
+        color:black;
+    }
+}
