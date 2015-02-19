@@ -183,17 +183,23 @@ table, th, td{
     background-color:#54BC59;
 }
 
-/*Estilo Ruta 1*/
-#tituloRuta1{
-    color:#073771;
+#tituloRuta1, #tituloRuta2, #tituloRuta3, #tituloRuta4, #tituloRuta5{
     font-size:1.5em;
     text-align:center;
     font-family:Verdana;
 }
 
-#encabezadoRuta1{
+#encabezadoRuta1, #encabezadoRuta2, #encabezadoRuta3, #encabezadoRuta4, #encabezadoRuta5{
     color:white;
     font-size:0.9em;
+}
+
+/*Estilo Ruta 1*/
+#tituloRuta1{
+    color:#073771;
+}
+
+#encabezadoRuta1{
     background-color:#073771;
 }
 
@@ -204,14 +210,9 @@ table, th, td{
 /*Estilo Ruta 2*/
 #tituloRuta2{
     color:#560C6C;
-    font-size:1.5em;
-    text-align:center;
-    font-family:Verdana;
 }
 
 #encabezadoRuta2{
-    color:white;
-    font-size:0.9em;
     background-color:#560C6C;
 }
 
@@ -222,14 +223,9 @@ table, th, td{
 /*Estilo Ruta 3*/
 #tituloRuta3{
     color:#004B2A;
-    font-size:1.5em;
-    text-align:center;
-    font-family:Verdana;
 }
 
 #encabezadoRuta3{
-    color:white;
-    font-size:0.9em;
     background-color:#004B2A;
 }
 
@@ -240,14 +236,9 @@ table, th, td{
 /*Estilo Ruta 4*/
 #tituloRuta4{
     color:#F0AF00;
-    font-size:1.5em;
-    text-align:center;
-    font-family:Verdana;
 }
 
 #encabezadoRuta4{
-    color:white;
-    font-size:0.9em;
     background-color:#F0AF00;
 }
 
@@ -257,14 +248,9 @@ table, th, td{
 
 #tituloRuta5{
     color:#FF00BF;
-    font-size:1.5em;
-    text-align:center;
-    font-family:Verdana;
 }
 
 #encabezadoRuta5{
-    color:white;
-    font-size:0.9em;
     background-color:#FF00BF;
 }
 
